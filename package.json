@@ -1,0 +1,30 @@
+{
+    "name": "bdida",
+    "author": "Amit Katz",
+    "displayName": "bdida",
+    "description": "a simple extension for bdida",
+    "repository": "https://github.com/Amit-Katz/Bdida.git",
+    "version": "1.0.0",
+    "engines": { "vscode": "^1.62.0" },
+    "categories": ["Programming Languages"],
+    "contributes": {
+        "snippets": [{
+                "language": "bdida",
+                "path": "./snippets.json"
+        }],
+        "languages": [{
+                "id": "bdida",
+                "aliases": [
+                    "Bdida",
+                    "bdida"
+                ],
+                "extensions": [".math"],
+                "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+                "language": "bdida",
+                "scopeName": "source.bdida",
+                "path": "./syntaxes/bdida.tmLanguage.json"
+        }]
+    }
+}

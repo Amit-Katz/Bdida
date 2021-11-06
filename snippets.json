@@ -1,0 +1,47 @@
+{
+    "¬": {
+        "prefix": ["!","not"],
+        "body": ["¬"],
+        "description": "Negation"
+    },
+    "∧": {
+        "prefix": ["&","and"],
+        "body": ["∧"],
+        "description": "Conjunction"
+    },
+    "∨": {
+        "prefix": ["|","or","V","v"],
+        "body": ["∨"],
+        "description": "Disjunction"
+    },
+    "⟶": {
+      "prefix": ["->","if"],
+      "body": ["⟶"],
+      "description": "Material conditional"
+    },
+    "⟷": {
+      "prefix": ["=","<>","<->"],
+      "body": ["⟷"],
+      "description": "Biconditional"
+    },
+    "⊕":{
+        "prefix": ["xor","+"],
+        "body": ["⊕"],
+        "description": "Exclusive disjunction"
+    },
+    "≡": {
+      "prefix": ["==","===","is"],
+      "body": ["≡"],
+      "description": "Equal"
+    },
+    "↑": {
+      "prefix": ["nand"],
+      "body": ["↑"],
+      "description": "Alternative denial"
+    },
+    "↓": {
+      "prefix": ["nor"],
+      "body": ["↓"],
+      "description": "Joint denial"
+    }
+}
